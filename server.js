@@ -165,7 +165,7 @@ app.use(express.json());
 // ✅ CORS configuration (allow localhost + Vercel frontend)
 const allowedOrigins = [
   "http://localhost:3000",
-  "https://shubh-milan-frontend.vercel.app"
+  "https://shubh-milan-frontend.vercel.app/"
 ];
 
 app.use(cors({
